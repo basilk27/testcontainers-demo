@@ -1,0 +1,12 @@
+version: '3.1'
+
+services:
+
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_PASSWORD: Zaq1!2@wsx
+      POSTGRES_USER:  basilkiwanuka
+      POSTGRES_DB: polldb
+    ports:
+      - 5432:5432
